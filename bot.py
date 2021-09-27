@@ -26,30 +26,30 @@ Deccan = Client(
 START_TEXT = """
 Hello {}, 
 
-I am <b>Todoroki Music.</b>
+I am <b>Soleh Music.</b>
 
-I can play music in your group. . .
+I can play music in your group.It will be fun!
 
-Click /help for more details..
+Click /help for more details and command.
 
-<b>✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.<b>
+<b>✨Made by @sparkysunny✨.<b>
 """
 HELP_TEXT = """
 Help command 
 
-/play - play a music
-/end - end
-/skip - skip a music
-/song - search a song
+/play - play a music!
+/end - end the song!
+/skip - skip a music!
+/song - search a song!
 """
 ABOUT_TEXT = """
-⭕️<b>My Name💖: Todoroki Shoto</b>
+⭕️<b>☢️My Name☢️: SolehMusic</b>
 
-⭕️<b>Worker💖:</b> <a href='https://t.me/sparkysunny/346'>Soleh</a>
+⭕️<b>☢️Developer:</b> <a href='https://t.me/sparkysunny/346'>Soleh</a>
 
-⭕️<b>My Group💖 :</b> <a href='https://t.me/animefan_club777'>Anime Fan Club🌈🌈</a>
+⭕️<b>☢️My Group☢️ :</b> <a href='https://t.me/animefan_club777'>Anime Fan Club🌈🌈</a>
 
-⭕️<b>My channel💖 :</b> <a href='https://t.me/moviesebseriesAnimes'>Anime Gallery</a>
+⭕️<b>☢️My channel☢️:</b> <a href='https://t.me/moviesebseriesAnimes'>Anime Gallery</a>
 """
 """
 
@@ -57,56 +57,54 @@ The bot is free to use and always will be!
 But running this bot on server costs money, If you like this bot and want it to keep running, please support.
 
 To donate you can choose any of these options and send any amount that you wish.
-
-<b>✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.<b>
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
            [[
-        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
-        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Group☢️', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('☢️Channel☢️', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
-        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
-        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
+        InlineKeyboardButton('☢️Feedback☢️', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('☢️Anime Wallpaper☢️', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('☢️Music☢️', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Subscribe to our CHANNEL☢️', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
-        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Group☢️', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('☢️Channel☢️', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
-        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
-        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
+        InlineKeyboardButton('☢️Feedback☢️', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('☢️Anime Wallpaper☢️', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('☢️Music☢️', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Subscribe to our CHANNEL☢️', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
        [[
-        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
-        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Group☢️', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('☢️Channel☢️', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
-        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
-        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
+        InlineKeyboardButton('☢️Feedback☢️', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('☢️Anime Wallpaper☢️', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('☢️Music☢️', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Subscribe to our CHANNEL☢️', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 DONATE_BUTTONS = InlineKeyboardMarkup(
       [[
-        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
-        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Group☢️', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('☢️Channel☢️', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
-        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
-        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
+        InlineKeyboardButton('☢️Feedback☢️', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('☢️Anime Wallpaper☢️', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('☢️Music☢️', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
+        InlineKeyboardButton('☢️Subscribe to our CHANNEL☢️', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 @Deccan.on_message(filters.private & filters.command(["start"]))
@@ -121,21 +119,18 @@ async def donate(bot, update):
     await update.reply_text(
         text=DONATE_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
-        reply_markup=DONATE_BUTTONS
     )
 @Deccan.on_message(filters.private & filters.command(["help"]))
 async def help(bot, update):
     await update.reply_text(
         text=HELP_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
-        reply_markup=HELP_BUTTONS
     )
 @Deccan.on_message(filters.private & filters.command(["about"]))
 async def about(bot, update):
     await update.reply_text(
         text=ABOUT_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
-        reply_markup=ABOUT_BUTTONS
     )
 
 Deccan.run()
