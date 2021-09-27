@@ -25,13 +25,13 @@ Deccan = Client(
     
 START_TEXT = """
 Hello {}, 
-I am <b>Google Translator Bot.</b>
+I am <b>Tr Bot.</b>
 
-Send me a <b>word/sentence.</b> I will Translate it to you ✅
+Send me a <b>word/sentence.</b> I will Translate it to you!
 
 Click /help for more details..
 
-<b>▷ Made With ❤ By @ZauteKm.</b>
+<b>✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.<b>
 """
 HELP_TEXT = """
 Hey, 
@@ -41,23 +41,23 @@ It's not complicated 🤭
 ▷ Just send me a Word/Sentence/Paragraph.
 ▷ Select the Language and I will translate it you!
 
-<b><u>Languages :-</u></b>
+<b><u>List of Languages :-</u></b>
 English, Tamil, Telugu, Hindi, Kannada, Malayalam, Urdu, Punjabi, Spanish, Korean, Japanese, Chinese, Greek, Italian, Vietnamese, Nepali
  
-<b>▷ Made With ❤ By @ZauteKm.</b>
+<b>✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.<b>
 """
 ABOUT_TEXT = """
-⭕️<b>🤖 My Name : Google Translator Bot</b>
+⭕️<b>My Name💖: Google Translator Bot</b>
 
 ⭕️<b>📝 Language :</b> <code>Python3</code>
 
 ⭕️<b>📚 Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
 
-⭕️<b>📡 Hosted on :</b> <a href='https://heroku.com/'>Heroku</a>
+⭕️<b>Worker💖:</b> <a href='https://t.me/sparkysunny/346'>Soleh</a>
 
-⭕️<b>👥 Group :</b> <a href='https://t.me/InFoJosTelGroup'>InFoJosTel Group</a>
+⭕️<b>My Group💖 :</b> <a href='https://t.me/animefan_club777'>Anime Fan Club🌈🌈</a>
 
-⭕️<b>📢 Channel :</b> <a href='https://t.me/InFoJosTel'>InFoJosTel</a>
+⭕️<b>My channel💖 :</b> <a href='https://t.me/moviesebseriesAnimes'>Anime Gallery</a
 """
 
 DONATE_TEXT = """<b>Thanks for Clicking Donate Command.</b>
@@ -67,58 +67,58 @@ But running this bot on server costs money, If you like this bot and want it to 
 
 To donate you can choose any of these options and send any amount that you wish.
 
-<b>▷ Made With ❤ By @ZauteKm.</b>
+<b>▷ ✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.</b>
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('👥 Group', url='https://t.me/InFoJosTelGroup'),
-        InlineKeyboardButton(' Channel 📢', url='https://telegram.me/InFoJosTel')
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('🗣 Feedback', url='https://telegram.me/ZauteBot'),
-        InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/TG_BotList/37'),
-        InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/7gSUxv6vgQE3M2Fl')
+        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🔻 Subscribe Now YouTube 🔻', url='https://youtube.com/c/ZauteKm')
+        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('👥 Group', url='https://t.me/InFoJosTelGroup'),
-        InlineKeyboardButton(' Channel 📢', url='https://telegram.me/InFoJosTel')
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('🗣 Feedback', url='https://telegram.me/ZauteBot'),
-        InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/TG_BotList/37'),
-        InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/7gSUxv6vgQE3M2Fl')
+        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🔻 Subscribe Now YouTube 🔻', url='https://youtube.com/c/ZauteKm')
+        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('👥 Group', url='https://t.me/InFoJosTelGroup'),
-        InlineKeyboardButton(' Channel 📢', url='https://telegram.me/InFoJosTel')
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('🗣 Feedback', url='https://telegram.me/ZauteBot'),
-        InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/TG_BotList/37'),
-        InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/7gSUxv6vgQE3M2Fl')
+        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🔻 Subscribe Now YouTube 🔻', url='https://youtube.com/c/ZauteKm')
+        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 DONATE_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('💸 PayPal', url='https://t.me/Zautebot'),
-        InlineKeyboardButton('UPI 🤑', url='https://t.me/zautebot')
+        InlineKeyboardButton('Join', url='https://t.me/animetrangel'),
+        InlineKeyboardButton('Join', url='https://t.me/THE_A_RANK')
         ],[
-        InlineKeyboardButton('👥 Group', url='https://t.me/InFoJosTelGroup'),
-        InlineKeyboardButton(' Channel 📢', url='https://telegram.me/InFoJosTel')
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
         ],[
-        InlineKeyboardButton('🗣 Feedback', url='https://telegram.me/ZauteBot'),
-        InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/TG_BotList/37'),
-        InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/7gSUxv6vgQE3M2Fl')
+        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
         ],[
-        InlineKeyboardButton('🔻 Subscribe Now YouTube 🔻', url='https://youtube.com/c/ZauteKm')
+        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
 
