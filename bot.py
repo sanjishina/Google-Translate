@@ -93,10 +93,6 @@ async def about(bot, update):
         disable_web_page_preview=True,
         reply_markup=ABOUT_BUTTONS
     )
-
- message.reply_text("Select language 👇",reply_to_message_id = message.message_id, reply_markup = keybord)
-    
-    
 @Deccan.on_callback_query()
 async def translate_text(bot,update):
   tr_text = update.message.reply_to_message.text
