@@ -25,92 +25,35 @@ Deccan = Client(
     
 START_TEXT = """
 Hello {}, 
-I am <b>Tr Bot.</b>
+I am <b>Todoroki Music.</b>
 
-Send me a <b>word/sentence.</b> I will Translate it to you!
+I can play music in your group. . .
 
 Click /help for more details..
 
 <b>✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.<b>
 """
 HELP_TEXT = """
-Hey, 
-It's not complicated 🤭
+Help command 
 
-<b><u>Follow these Steps.</u></b>
-▷ Just send me a Word/Sentence/Paragraph.
-▷ Select the Language and I will translate it you!
+/play - play a music
+/end - end
+/skip - skip a music
+/song - search a song
 
-<b><u>List of Languages :-</u></b>
-English, Tamil, Telugu, Hindi, Kannada, Malayalam, Urdu, Punjabi, Spanish, Korean, Japanese, Chinese, Greek, Italian, Vietnamese, Nepali
- 
-<b>✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.<b>
 """
 ABOUT_TEXT = """
-⭕️<b>My Name💖: Google Translator Bot</b>
-
-⭕️<b>📝 Language :</b> <code>Python3</code>
-
-⭕️<b>📚 Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
+⭕️<b>My Name💖: Todoroki Shoto</b>
 
 ⭕️<b>Worker💖:</b> <a href='https://t.me/sparkysunny/346'>Soleh</a>
 
 ⭕️<b>My Group💖 :</b> <a href='https://t.me/animefan_club777'>Anime Fan Club🌈🌈</a>
 
-⭕️<b>My channel💖 :</b> <a href='https://t.me/moviesebseriesAnimes'>Anime Gallery</a
-"""
-
-DONATE_TEXT = """<b>Thanks for Clicking Donate Command.</b>
-
-The bot is free to use and always will be!
-But running this bot on server costs money, If you like this bot and want it to keep running, please support.
-
-To donate you can choose any of these options and send any amount that you wish.
-
-<b>▷ ✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.</b>
+⭕️<b>My channel💖 :</b> <a href='https://t.me/moviesebseriesAnimes'>Anime Gallery</a>
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
-        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
-        ],[
-        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
-        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
-        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
-        ],[
-        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
-        ]]
-    )
-HELP_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
-        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
-        ],[
-        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
-        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
-        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
-        ],[
-        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
-        ]]
-    )
-ABOUT_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
-        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
-        ],[
-        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
-        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
-        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
-        ],[
-        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
-        ]]
-    )
-DONATE_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('Join', url='https://t.me/animetrangel'),
-        InlineKeyboardButton('Join', url='https://t.me/THE_A_RANK')
-        ],[
         InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
         InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
         ],[
@@ -150,37 +93,7 @@ async def about(bot, update):
         disable_web_page_preview=True,
         reply_markup=ABOUT_BUTTONS
     )
-	
-@Deccan.on_message(filters.text & filters.private )
-def echo(client, message):
- 
- keybord = InlineKeyboardMarkup( [
-        [
-            InlineKeyboardButton("English", callback_data='en'),
-            InlineKeyboardButton("Tamil", callback_data='ta'),
-            InlineKeyboardButton("Telugu",callback_data='te')
-        ],
-        [   InlineKeyboardButton("Hindi", callback_data='hi'),
-        InlineKeyboardButton("Kannada", callback_data='kn'),
-        InlineKeyboardButton("Malayalam",callback_data= 'ml')
-        ],
-        [InlineKeyboardButton("Urdu", callback_data ='ur'),
-	InlineKeyboardButton("Punjabi", callback_data='pa'),
-	InlineKeyboardButton("Spanish", callback_data='es')
-	],
-        [InlineKeyboardButton("Korean", callback_data='ko'),
-         InlineKeyboardButton("Japanese", callback_data='ja'),
-         InlineKeyboardButton("Chinese", callback_data='zn-cn')
-        ],
-        [InlineKeyboardButton("Greek", callback_data='el'),
-         InlineKeyboardButton("Italian", callback_data='it'),
-         InlineKeyboardButton("Nepali", callback_data='ne')
-        ]
-    ]
- 
- )
 
- 
  message.reply_text("Select language 👇",reply_to_message_id = message.message_id, reply_markup = keybord)
     
     
