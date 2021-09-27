@@ -53,8 +53,6 @@ ABOUT_TEXT = """
 """
 """
 
-DONATE_TEXT = """<b>Thanks for Clicking Donate Command.</b>
-
 The bot is free to use and always will be!
 But running this bot on server costs money, If you like this bot and want it to keep running, please support.
 
