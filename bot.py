@@ -119,18 +119,21 @@ async def donate(bot, update):
     await update.reply_text(
         text=DONATE_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
+        reply_markup=DONATE_BUTTONS
     )
 @Deccan.on_message(filters.private & filters.command(["help"]))
 async def help(bot, update):
     await update.reply_text(
         text=HELP_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
+        reply_markup=HELP_BUTTONS
     )
 @Deccan.on_message(filters.private & filters.command(["about"]))
 async def about(bot, update):
     await update.reply_text(
         text=ABOUT_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
+        reply_markup=ABOUT_BUTTONS
     )
 
 Deccan.run()
