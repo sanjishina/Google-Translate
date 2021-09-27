@@ -25,6 +25,7 @@ Deccan = Client(
     
 START_TEXT = """
 Hello {}, 
+
 I am <b>Todoroki Music.</b>
 
 I can play music in your group. . .
@@ -40,7 +41,6 @@ Help command
 /end - end
 /skip - skip a music
 /song - search a song
-
 """
 ABOUT_TEXT = """
 ⭕️<b>My Name💖: Todoroki Shoto</b>
@@ -51,8 +51,31 @@ ABOUT_TEXT = """
 
 ⭕️<b>My channel💖 :</b> <a href='https://t.me/moviesebseriesAnimes'>Anime Gallery</a>
 """
+"""
+
+DONATE_TEXT = """<b>Thanks for Clicking Donate Command.</b>
+
+The bot is free to use and always will be!
+But running this bot on server costs money, If you like this bot and want it to keep running, please support.
+
+To donate you can choose any of these options and send any amount that you wish.
+
+<b>✨Made by @Mochi875 and @Shoto_GirlFriend_777✨.<b>
+"""
 
 START_BUTTONS = InlineKeyboardMarkup(
+           [[
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
+        ],[
+        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
+        ],[
+        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
+        ]]
+    )
+HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
         InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
@@ -64,7 +87,30 @@ START_BUTTONS = InlineKeyboardMarkup(
         InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
         ]]
     )
-
+ABOUT_BUTTONS = InlineKeyboardMarkup(
+       [[
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
+        ],[
+        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
+        ],[
+        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
+        ]]
+    )
+DONATE_BUTTONS = InlineKeyboardMarkup(
+      [[
+        InlineKeyboardButton('My Group💖', url='https://t.me/animefan_club777'),
+        InlineKeyboardButton('My channel💖', url='https://t.me/moviesebseriesAnimes')
+        ],[
+        InlineKeyboardButton('Feedback', url='https://t.me/bussystudent/346'),
+        InlineKeyboardButton('Anime Wallpaper', url='https://t.me/Todoroki_Shoto_777'),
+        InlineKeyboardButton('Music🎤', url='https://t.me/animefan_club777')
+        ],[
+        InlineKeyboardButton('🌈Subscribe to our Channel🌈', url='https://t.me/moviesebseriesAnimes')
+        ]]
+    )
 @Deccan.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
     await update.reply_text(
@@ -93,13 +139,5 @@ async def about(bot, update):
         disable_web_page_preview=True,
         reply_markup=ABOUT_BUTTONS
     )
-@Deccan.on_callback_query()
-async def translate_text(bot,update):
-  tr_text = update.message.reply_to_message.text
-  cbdata = update.data
-  translator = google_translator()
-  translated_text = translator.translate(tr_text,lang_tgt=cbdata)
-  await update.message.edit(translated_text)
-  	
 
 Deccan.run()
